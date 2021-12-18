@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  font-family: "helvetica", "oswald";
+  font-size: 18px;
+  font-style: italic;
+  width: 40%;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 730px) {
+  h1 {
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: "palatino", georgia;
+  }
+
+  header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    padding: 150px 0 150px 0;
+    font-family: "open sans", "helvetica neue", helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    opacity: 2;
+  }
+
+  .header-div {
+    height: 360px;
+    width: 100%;
+    background-image: url("../images/purple_sunset.JPG");
+  }
+  .shade {
+    height: 360px;
+    width: 100%;
+    background-color: black;
+    opacity: .2;
+  }
+
+  .fancy-shape {
+    border-bottom: 400px solid rgb(150,106,149);
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 66%;
+    position: absolute;
+    top: 1000px;
+
+    z-index: -2;
+  }
+  .fancy-shape2 {
+    border-top: 600px solid rgb(200,150,183);
+    border-left: 100px solid transparent;
+    height: 0;
+    width: 75%;
+    position: absolute;
+    top: 600px;
+    z-index: -1;
+    right: 0;
+  }
+
+  a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #2E3532;
+    transition: all .15s ease;
+    transition-delay: 0;
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+  a:hover {
+
+    transform: translate(5px, 5px);
+    background-color: #BC8DA0;
+    color: #eee;
+    box-shadow: 3px 3px 3px #ccc;
+  }
+  .tableau-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: rgb(200,150,183);;
+  }
+
+  .horizontal-list ul {
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .horizontal-list li {
+    float: left;
+    display: inline;
+    list-style-type: none;
+    font-family: "Open Sans", "Helvetica";
+    letter-spacing: 2px;
+    padding: 20px;
+    margin: 10px 2vw 10px 2vw;
+    text-align: center;
+    width: 150px;
+  }
+  p {
+    font-family: "oswald", "helvetica";
+    padding: 10px 0 10px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  #centerlist {
+    display: table;
+    margin: 0 auto;
+
+  }
+  #listBackground {
+    padding: 20px 0 20px 0;
+  }
+
+}
+@media screen and (max-width: 729px) {
+  h1 {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: "palatino", georgia;
+  }
+
+  header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    padding: 150px 0 150px 0;
+    font-family: "open sans", "helvetica neue", helvetica, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    opacity: 2;
+  }
+
+  .header-div {
+    height: 360px;
+    width: 100%;
+    background-image: url("../images/purple_sunset.JPG");
+  }
+  .shade {
+    height: 360px;
+    width: 100%;
+    background-color: black;
+    opacity: .2;
+  }
+
+  .fancy-shape {
+    border-bottom: 400px solid rgb(150,106,149);
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 66%;
+    position: absolute;
+    top: 1000px;
+
+    z-index: -2;
+  }
+  .fancy-shape2 {
+    border-top: 600px solid rgb(200,150,183);
+    border-left: 100px solid transparent;
+    height: 0;
+    width: 75%;
+    position: absolute;
+    top: 600px;
+    z-index: -1;
+    right: 0;
+  }
+
+  a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #2E3532;
+    transition: all .15s ease;
+    transition-delay: 0;
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+  a:hover {
+
+    transform: translate(5px, 5px);
+    background-color: #BC8DA0;
+    color: #eee;
+    box-shadow: 3px 3px 3px #ccc;
+  }
+  .tableau-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: rgb(200,150,183);;
+  }
+
+  .horizontal-list ul {
+    display: block;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .horizontal-list li {
+    float: left;
+    display: inline;
+    list-style-type: none;
+    font-family: "Open Sans", "Helvetica";
+    letter-spacing: 2px;
+    margin: 10px 2vw 10px 2vw;
+    text-align: center;
+    width: 140px;
+  }
+  p {
+    font-family: "oswald", "helvetica";
+    padding: 10px 0 10px 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  #centerlist {
+    display: table;
+    margin: 0 auto;
+
+  }
+  #listBackground {
+    padding: 20px 0 20px 0;
+  }
+}

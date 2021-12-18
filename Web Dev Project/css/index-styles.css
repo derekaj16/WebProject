@@ -1,0 +1,226 @@
+
+
+
+          .text-animation {
+            position: relative;
+          }
+          @keyframes fade {
+            0% {
+              top: -10px;
+              opacity: 0;
+            }
+            50% {
+              top: -3px;
+              opacity: .8;
+            }
+            100% {
+              top: 0px;
+              opacity: 1;
+            }
+          }
+
+
+
+          @media screen and (min-width: 1290px) {
+            .fancy-shape {
+              border-bottom: 680px solid rgb(238,134,97);
+  	          border-right: 100px solid transparent;
+  	          height: 0;
+
+              width: 90%;
+
+              position: absolute;
+              top: 1300px;
+
+              z-index: -1;
+            }
+            .fade-in-text {
+              display: inline-block;
+              font-family: "Open Sans", Arial, Helvetica, sans-serif;
+              font-size: 40px;
+              color: black;
+              animation: fade 400ms ease-in-out forwards;
+              opacity: 0;
+            }
+            .fancy-shape2 {
+              border-top: 600px solid rgb(240,160,100);
+  	          border-left: 100px solid transparent;
+  	          height: 0;
+              width: 91%;
+              position: absolute;
+              top: 650px;
+              z-index: -2;
+              right: 0;
+            }
+            .intro-image {
+              display: inline;
+              position: absolute;
+              top: 740px;
+              left: 65%;
+              width: 30vw;
+            }
+            .big-container {
+              max-width: 1000px;
+              margin-left: 15%;
+              width: 60%;
+
+            }
+            .intro-description {
+              font-family: "helvetica", Sans;
+              width: 60%;
+              padding-left: 20px;
+            }
+            .second-description {
+              width: 100%;
+              margin-left: 40%;
+            }
+            .space-div {
+              display: block; height: 200px;
+            }
+            .cool-vid {
+              position:
+              absolute;
+              top: 1400px;
+              left: 8%;
+              height: 35vw;
+              width: 23vw;
+            }
+            footer {
+              padding-top: 100px;
+            }
+          }
+          @media screen and (max-width: 1289px) {
+            .fade-in-text {
+              display: inline-block;
+              font-family: "Open Sans", Arial, Helvetica, sans-serif;
+              font-size: 40px;
+              color: black;
+              animation: fade 400ms ease-in-out forwards;
+              opacity: 0;
+            }
+            .fancy-shape {
+              border-bottom: 680px solid rgb(238,134,97);
+
+  	          height: 0;
+
+              width: 100%;
+
+              position: absolute;
+              top: 1300px;
+
+              z-index: -1;
+
+            }
+            .fancy-shape2 {
+              border-top: 600px solid rgb(240,160,100);
+
+  	          height: 0;
+              width: 100%;
+              position: absolute;
+              top: 650px;
+              z-index: -2;
+              right: 0;
+            }
+            .intro-image {
+              display: inline;
+              position: absolute;
+              top: 740px;
+              left: 65%;
+              width: 30vw;
+            }
+            .big-container {
+              max-width: 1000px;
+              margin-left: 0;
+              min-width: 800px;
+            }
+            .intro-description {
+              font-family: "helvetica", Sans;
+              width: 50%;
+              padding-left: 30px;
+            }
+            .second-description {
+              margin-left: 50%;
+              display: block;
+            }
+            .second-description p {
+              width: 100%;
+            }
+            .space-div {
+              display: block; height: 200px;
+            }
+            .cool-vid {
+              position: absolute;
+              top: 1400px;
+              left: 8%;
+              height: 40vw;
+              width: 26vw;
+            }
+          }
+          @media screen and (max-width: 992px) {
+            .fade-in-text {
+              display: inline-block;
+              font-family: "Open Sans", Arial, Helvetica, sans-serif;
+              font-size: 30px;
+              color: black;
+              animation: fade 400ms ease-in-out forwards;
+              opacity: 0;
+              position: relative;
+              top: 50px;
+              margin-bottom: 0;
+            }
+            .fancy-shape {
+              border-bottom: 680px solid rgb(238,134,97);
+              height: 0;
+              width: 100%;
+              position: absolute;
+              top: 1170px;
+              z-index: -1;
+            }
+            .fancy-shape2 {
+              border-top: 620px solid rgb(240,160,100);
+
+              height: 0;
+              width: 100%;
+              position: absolute;
+              top: 500px;
+              z-index: -2;
+              right: 0;
+            }
+            .intro-image {
+              display: block;
+              position: relative;
+              top: 0;
+              left: 0;
+              margin: 0 auto 75px auto;
+              width: 200px;
+            }
+            .big-container {
+              max-width: 1000px;
+              min-width: 500px;
+              margin-left: 0;
+            }
+            .intro-description {
+              font-family: "helvetica", Sans;
+              width: 100%;
+              padding-left: 20px;
+              font-size: 17px;
+              min-width: 200px;
+              display: block;
+            }
+            .second-description {
+              width: 100%;
+              margin-left: 0px;
+            }
+            .space-div {
+              display: block; height: 80px;
+            }
+            .cool-vid {
+              display: block;
+              position: relative;
+              top: 0;
+              left: 0;
+              margin: 0 auto;
+              height: 40vw;
+              width: 30vw;
+            }
+          }

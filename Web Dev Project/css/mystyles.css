@@ -1,0 +1,128 @@
+p {
+  font-family: "oswald", "helvetica";
+}
+a.menu-bar-link {
+  font-size: 21px;
+  text-decoration: none;
+  color: #2E3532;
+  transition: all .15s ease;
+  transition-delay: 0;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+a.menu-bar-link:hover {
+  transform: translate(5px, 5px);
+  background-color: rgb(152,195,195);
+  color: #eee;
+  box-shadow: 3px 3px 3px #ccc;
+}
+.regular-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.regular-link:hover {
+  color: rgb(152,195,195);
+  transition: all 30ms ease;
+}
+
+@media screen and (min-width: 768px) {
+  .about-me-image {
+    width: 33vw;
+    height: 24.7vw;
+    object-fit: cover;
+    position: relative;
+    left: 1.5vw;
+
+  }
+  .frame {
+    position: absolute;
+
+    padding-top: 1.3vw;
+    left: 55vw;
+    top: 650px;
+    width: 36vw;
+    height: 27.5vw;
+    background: #efefef;
+    border: 1px solid #555;
+    box-shadow: 8px 8px 5px grey;
+    transform: rotate(5deg);
+  }
+  .col-width-about {
+    width: 50%;
+  }
+  .second-pic {
+    top: 1250px;
+    transform: rotate(-5deg);
+    box-shadow: -8px 8px 5px grey;
+  }
+  .third-pic {
+    top: 1800px;
+    transform: rotate(5deg);
+    box-shadow:8px 8px 5px grey;
+  }
+}
+@media screen and (max-width: 767px) {
+    .about-me-image {
+      width: 50vw;
+      height: 37.5vw;
+      object-fit: cover;
+      display: block;
+      position: relative;
+      left: 1.5vw;
+    }
+    .frame {
+      padding-top: 1.3vw;
+      left: 55vw;
+      top: 650px;
+      width: 53vw;
+      height: 40.5vw;
+      background: #efefef;
+      border: 1px solid #555;
+      box-shadow: 0px 8px 5px grey;
+
+      margin-left: 13%
+    }
+    .second-pic {
+      top: 1150px;
+      box-shadow: 0px 8px 5px grey;
+    }
+    .third-pic {
+      top: 1800px;
+      box-shadow:0px 8px 5px grey;
+      margin-bottom: 40px;
+    }
+}
+body {
+  background-color: #efefef;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.horizontal-list ul {
+  display: block;
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ol {
+  font-family: "oswald", "helvetica";
+}
+.horizontal-list li {
+  float: left;
+  display: inline;
+  list-style-type: none;
+  font-family: "Open Sans", "Helvetica";
+}
+#centerlist {
+  display: table;
+  margin: 0 auto;
+
+}
+#listBackground {
+  height: 80px;
+  margin-bottom: 20px;
+}
